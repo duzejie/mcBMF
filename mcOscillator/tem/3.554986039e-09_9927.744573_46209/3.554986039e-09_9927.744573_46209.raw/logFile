@@ -1,0 +1,84 @@
+HEADER
+"PSFversion" "1.00"
+"Log Generator" "drlLog rev. 1.0"
+"Log Time Stamp" "Fri Nov 17 05:41:09 2017"
+"simulator" "spectre"
+"version" "16.1.0.development.optimize.000.isr11_dev"
+"date" "5:41:09 AM, Fri Nov 17, 2017"
+"design" ""
+"signalNameType" "spectre"
+"simMode" "Spectre"
+"measdgt" 0
+"ingold" 2
+"sst2usecolon" 0
+TYPE
+"analysisInst" STRUCT(
+"analysisType" STRING *
+"dataFile" STRING *
+"format" STRING *
+"parent" STRING *
+"sweepVariable" ARRAY ( * ) STRING *
+"description" STRING *
+)
+VALUE
+"transient1-reliability" "analysisInst" (
+"reliability"
+"transient1.reliability"
+"PSF"
+""
+("reliability_agetime")
+"parent"
+) PROP(
+"sweep_tree_type" "sweepNode"
+)
+
+"transient1_meas-meas_reliability" "analysisInst" (
+"meas_reliability"
+"transient1_meas.meas_reliability"
+"PSF"
+""
+("reliability_agetime")
+"parent"
+)
+"finalTimeOP_stress-reliability" "analysisInst" (
+"reliability"
+"finalTimeOP_stress.reliability"
+"PSF"
+""
+("reliability_agetime")
+"parent"
+) PROP(
+"sweep_tree_type" "sweepNode"
+)
+
+"transient2-reliability" "analysisInst" (
+"reliability"
+"transient2.reliability"
+"PSF"
+""
+("reliability_agetime")
+"parent"
+) PROP(
+"sweep_tree_type" "sweepNode"
+)
+
+"transient2_meas-meas_reliability" "analysisInst" (
+"meas_reliability"
+"transient2_meas.meas_reliability"
+"PSF"
+""
+("reliability_agetime")
+"parent"
+)
+"finalTimeOP_aged-reliability" "analysisInst" (
+"reliability"
+"finalTimeOP_aged.reliability"
+"PSF"
+""
+("reliability_agetime")
+"parent"
+) PROP(
+"sweep_tree_type" "sweepNode"
+)
+
+END

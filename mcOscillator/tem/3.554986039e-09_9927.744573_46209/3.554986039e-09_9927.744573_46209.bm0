@@ -1,0 +1,422 @@
+****************************************************************************************************
+*  Spectre (R) Circuit Simulator
+*  Version 16.1.0.development.optimize.000.isr11_dev 64bit -- 12 Oct 2017
+*  Copyright (C) 1989-2016 Cadence Design Systems, Inc. All rights reserved worldwide.
+*  Cadence and Spectre are registered trademarks of Cadence Design Systems, Inc.
+*  All others are the property of their respective holders.
+*  Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+*  User: zejie   Host: ip-172-18-22-97   HostID: 12AC6116   PID: 8553
+*  Memory  available: 97.4824 GB  physical: 185.1054 GB
+*  Simulating `/vols/mmsimP4_t1b_006/ws/zejie/zejie_161_1012_4/mc3/1116outNetList/3.554986039e-09_9927.744573_46209.ckt' on ip-172-18-22-97 at 5:41:08 AM, Fri Nov 17, 2017 (process id: 8553).
+****************************************************************************************************
+
+
+Table Legends:
+  Device Name  : Device Name.
+  Aging Time   : The given age time value in netlist.
+  Param_name   : Changed model parameter name.
+  Fresh_value  : Fresh model parameter value.
+  Effec_value  : Effective fresh model parameter value.
+  Aged_value   : Aged model parameter value.
+  Aged_Effec_value   : Aged effective model parameter value.
+
+
+Device name: I0.M1  Aging Time:10.00yrs
+  Param_name    Fresh_value    Effec_value    Aged_value     Aged_Effec_value
+  a0            1.000000e-03   1.000000e-03   9.999967e-04   9.999967e-04
+  ub            1.801740e-18   2.624136e-18   1.803311e-18   2.625708e-18
+  vsat          1.191540e+05   1.350855e+05   1.143886e+05   1.303201e+05
+  vth0         -3.612510e-01  -2.841230e-01  -3.864921e-01  -3.093641e-01
+
+<END>
+
+
+Device name: I1.M1  Aging Time:10.00yrs
+  Param_name    Fresh_value    Effec_value    Aged_value     Aged_Effec_value
+  a0            1.000000e-03   1.000000e-03   9.999985e-04   9.999985e-04
+  ub            1.801740e-18   2.624136e-18   1.803173e-18   2.625569e-18
+  vsat          1.191540e+05   1.350855e+05   1.148903e+05   1.308218e+05
+  vth0         -3.612510e-01  -2.841230e-01  -3.852588e-01  -3.081309e-01
+
+<END>
+
+
+Device name: I3.M1  Aging Time:10.00yrs
+  Param_name    Fresh_value    Effec_value    Aged_value     Aged_Effec_value
+  a0            1.000000e-03   1.000000e-03   9.999966e-04   9.999966e-04
+  ub            1.801740e-18   2.624136e-18   1.803336e-18   2.625733e-18
+  vsat          1.191540e+05   1.350855e+05   1.143483e+05   1.302798e+05
+  vth0         -3.612510e-01  -2.841230e-01  -3.866833e-01  -3.095553e-01
+
+<END>
+
+
+Device name: IL2.M1  Aging Time:10.00yrs
+  Param_name    Fresh_value    Effec_value    Aged_value     Aged_Effec_value
+  a0            1.000000e-03   1.000000e-03   9.999982e-04   9.999982e-04
+  ub            1.801740e-18   2.624136e-18   1.803072e-18   2.625468e-18
+  vsat          1.191540e+05   1.350855e+05   1.149029e+05   1.308344e+05
+  vth0         -3.612510e-01  -2.841230e-01  -3.845062e-01  -3.073782e-01
+
+<END>
+
+
+Device name: I11.M1  Aging Time:10.00yrs
+  Param_name    Fresh_value    Effec_value    Aged_value     Aged_Effec_value
+  a0            1.000000e-03   1.000000e-03   9.999966e-04   9.999966e-04
+  ub            1.801740e-18   2.624136e-18   1.803317e-18   2.625714e-18
+  vsat          1.191540e+05   1.350855e+05   1.143700e+05   1.303015e+05
+  vth0         -3.612510e-01  -2.841230e-01  -3.865376e-01  -3.094096e-01
+
+<END>
+
+
+Device name: IL3.M1  Aging Time:10.00yrs
+  Param_name    Fresh_value    Effec_value    Aged_value     Aged_Effec_value
+  a0            1.000000e-03   1.000000e-03   9.999982e-04   9.999982e-04
+  ub            1.801740e-18   2.624136e-18   1.803072e-18   2.625468e-18
+  vsat          1.191540e+05   1.350855e+05   1.149029e+05   1.308344e+05
+  vth0         -3.612510e-01  -2.841230e-01  -3.845062e-01  -3.073782e-01
+
+<END>
+
+
+Device name: I6.M1  Aging Time:10.00yrs
+  Param_name    Fresh_value    Effec_value    Aged_value     Aged_Effec_value
+  a0            1.000000e-03   1.000000e-03   9.999978e-04   9.999978e-04
+  ub            1.801740e-18   2.624136e-18   1.803244e-18   2.625640e-18
+  vsat          1.191540e+05   1.350855e+05   1.146516e+05   1.305830e+05
+  vth0         -3.612510e-01  -2.841230e-01  -3.859234e-01  -3.087954e-01
+
+<END>
+
+
+Device name: IL7.M1  Aging Time:10.00yrs
+  Param_name    Fresh_value    Effec_value    Aged_value     Aged_Effec_value
+  a0            1.000000e-03   1.000000e-03   9.999984e-04   9.999984e-04
+  ub            1.801740e-18   2.624136e-18   1.803118e-18   2.625514e-18
+  vsat          1.191540e+05   1.350855e+05   1.149099e+05   1.308413e+05
+  vth0         -3.612510e-01  -2.841230e-01  -3.848543e-01  -3.077263e-01
+
+<END>
+
+
+Device name: I5.M1  Aging Time:10.00yrs
+  Param_name    Fresh_value    Effec_value    Aged_value     Aged_Effec_value
+  a0            1.000000e-03   1.000000e-03   9.999963e-04   9.999963e-04
+  ub            1.801740e-18   2.624136e-18   1.803294e-18   2.625690e-18
+  vsat          1.191540e+05   1.350855e+05   1.143469e+05   1.302784e+05
+  vth0         -3.612510e-01  -2.841230e-01  -3.863478e-01  -3.092198e-01
+
+<END>
+
+
+Device name: I4.M1  Aging Time:10.00yrs
+  Param_name    Fresh_value    Effec_value    Aged_value     Aged_Effec_value
+  a0            1.000000e-03   1.000000e-03   9.999980e-04   9.999980e-04
+  ub            1.801740e-18   2.624136e-18   1.803214e-18   2.625610e-18
+  vsat          1.191540e+05   1.350855e+05   1.147146e+05   1.306460e+05
+  vth0         -3.612510e-01  -2.841230e-01  -3.856751e-01  -3.085471e-01
+
+<END>
+
+
+Device name: I2.M1  Aging Time:10.00yrs
+  Param_name    Fresh_value    Effec_value    Aged_value     Aged_Effec_value
+  a0            1.000000e-03   1.000000e-03   9.999969e-04   9.999969e-04
+  ub            1.801740e-18   2.624136e-18   1.803209e-18   2.625605e-18
+  vsat          1.191540e+05   1.350855e+05   1.145191e+05   1.304506e+05
+  vth0         -3.612510e-01  -2.841230e-01  -3.856809e-01  -3.085529e-01
+
+<END>
+
+
+Device name: I12.M1  Aging Time:10.00yrs
+  Param_name    Fresh_value    Effec_value    Aged_value     Aged_Effec_value
+  a0            1.000000e-03   1.000000e-03   9.999966e-04   9.999966e-04
+  ub            1.801740e-18   2.624136e-18   1.803347e-18   2.625743e-18
+  vsat          1.191540e+05   1.350855e+05   1.143492e+05   1.302807e+05
+  vth0         -3.612510e-01  -2.841230e-01  -3.867623e-01  -3.096343e-01
+
+<END>
+
+
+Device name: I10.M1  Aging Time:10.00yrs
+  Param_name    Fresh_value    Effec_value    Aged_value     Aged_Effec_value
+  a0            1.000000e-03   1.000000e-03   9.999963e-04   9.999963e-04
+  ub            1.801740e-18   2.624136e-18   1.803341e-18   2.625737e-18
+  vsat          1.191540e+05   1.350855e+05   1.143043e+05   1.302358e+05
+  vth0         -3.612510e-01  -2.841230e-01  -3.867149e-01  -3.095869e-01
+
+<END>
+
+
+Device name: I9.M1  Aging Time:10.00yrs
+  Param_name    Fresh_value    Effec_value    Aged_value     Aged_Effec_value
+  a0            1.000000e-03   1.000000e-03   9.999977e-04   9.999977e-04
+  ub            1.801740e-18   2.624136e-18   1.803233e-18   2.625629e-18
+  vsat          1.191540e+05   1.350855e+05   1.146359e+05   1.305674e+05
+  vth0         -3.612510e-01  -2.841230e-01  -3.858528e-01  -3.087248e-01
+
+<END>
+
+
+Device name: I7.M1  Aging Time:10.00yrs
+  Param_name    Fresh_value    Effec_value    Aged_value     Aged_Effec_value
+  a0            1.000000e-03   1.000000e-03   9.999966e-04   9.999966e-04
+  ub            1.801740e-18   2.624136e-18   1.803293e-18   2.625690e-18
+  vsat          1.191540e+05   1.350855e+05   1.143908e+05   1.303223e+05
+  vth0         -3.612510e-01  -2.841230e-01  -3.863517e-01  -3.092237e-01
+
+<END>
+
+
+Device name: I8.M1  Aging Time:10.00yrs
+  Param_name    Fresh_value    Effec_value    Aged_value     Aged_Effec_value
+  a0            1.000000e-03   1.000000e-03   9.999967e-04   9.999967e-04
+  ub            1.801740e-18   2.624136e-18   1.803334e-18   2.625730e-18
+  vsat          1.191540e+05   1.350855e+05   1.143793e+05   1.303108e+05
+  vth0         -3.612510e-01  -2.841230e-01  -3.866651e-01  -3.095372e-01
+
+<END>
+
+
+Device name: IL1.M1  Aging Time:10.00yrs
+  Param_name    Fresh_value    Effec_value    Aged_value     Aged_Effec_value
+  a0            1.000000e-03   1.000000e-03   9.999982e-04   9.999982e-04
+  ub            1.801740e-18   2.624136e-18   1.803072e-18   2.625468e-18
+  vsat          1.191540e+05   1.350855e+05   1.149029e+05   1.308344e+05
+  vth0         -3.612510e-01  -2.841230e-01  -3.845062e-01  -3.073782e-01
+
+<END>
+
+
+Device name: IL4.M1  Aging Time:10.00yrs
+  Param_name    Fresh_value    Effec_value    Aged_value     Aged_Effec_value
+  a0            1.000000e-03   1.000000e-03   9.999981e-04   9.999981e-04
+  ub            1.801740e-18   2.624136e-18   1.803120e-18   2.625516e-18
+  vsat          1.191540e+05   1.350855e+05   1.148402e+05   1.307716e+05
+  vth0         -3.612510e-01  -2.841230e-01  -3.849108e-01  -3.077828e-01
+
+<END>
+
+
+Device name: IL5.M1  Aging Time:10.00yrs
+  Param_name    Fresh_value    Effec_value    Aged_value     Aged_Effec_value
+  a0            1.000000e-03   1.000000e-03   9.999981e-04   9.999981e-04
+  ub            1.801740e-18   2.624136e-18   1.803120e-18   2.625516e-18
+  vsat          1.191540e+05   1.350855e+05   1.148402e+05   1.307716e+05
+  vth0         -3.612510e-01  -2.841230e-01  -3.849108e-01  -3.077828e-01
+
+<END>
+
+
+Device name: IL6.M1  Aging Time:10.00yrs
+  Param_name    Fresh_value    Effec_value    Aged_value     Aged_Effec_value
+  a0            1.000000e-03   1.000000e-03   9.999983e-04   9.999983e-04
+  ub            1.801740e-18   2.624136e-18   1.803160e-18   2.625556e-18
+  vsat          1.191540e+05   1.350855e+05   1.148412e+05   1.307727e+05
+  vth0         -3.612510e-01  -2.841230e-01  -3.852030e-01  -3.080750e-01
+
+<END>
+
+
+Device name: I0.M0  Aging Time:10.00yrs
+  Param_name    Fresh_value    Effec_value    Aged_value     Aged_Effec_value
+  a0            1.000000e-03   1.000000e-03   9.074047e-04   9.074047e-04
+  ub            2.134220e-18   2.249149e-18   2.247279e-18   2.362208e-18
+  vsat          1.238070e+05   1.417468e+05   1.222491e+05   1.401889e+05
+  vth0          3.542540e-01   3.627424e-01   3.777023e-01   3.861908e-01
+
+<END>
+
+
+Device name: I1.M0  Aging Time:10.00yrs
+  Param_name    Fresh_value    Effec_value    Aged_value     Aged_Effec_value
+  a0            1.000000e-03   1.000000e-03   9.373436e-04   9.373436e-04
+  ub            2.134220e-18   2.249149e-18   2.200211e-18   2.315140e-18
+  vsat          1.238070e+05   1.417468e+05   1.227849e+05   1.407247e+05
+  vth0          3.542540e-01   3.627424e-01   3.682781e-01   3.767665e-01
+
+<END>
+
+
+Device name: I3.M0  Aging Time:10.00yrs
+  Param_name    Fresh_value    Effec_value    Aged_value     Aged_Effec_value
+  a0            1.000000e-03   1.000000e-03   9.123722e-04   9.123722e-04
+  ub            2.134220e-18   2.249149e-18   2.239004e-18   2.353933e-18
+  vsat          1.238070e+05   1.417468e+05   1.223391e+05   1.402788e+05
+  vth0          3.542540e-01   3.627424e-01   3.760907e-01   3.845791e-01
+
+<END>
+
+
+Device name: IL2.M0  Aging Time:10.00yrs
+  Param_name    Fresh_value    Effec_value    Aged_value     Aged_Effec_value
+  a0            1.000000e-03   1.000000e-03   9.303083e-04   9.303083e-04
+  ub            2.134220e-18   2.249149e-18   2.210637e-18   2.325567e-18
+  vsat          1.238070e+05   1.417468e+05   1.226605e+05   1.406003e+05
+  vth0          3.542540e-01   3.627424e-01   3.704178e-01   3.789063e-01
+
+<END>
+
+
+Device name: I11.M0  Aging Time:10.00yrs
+  Param_name    Fresh_value    Effec_value    Aged_value     Aged_Effec_value
+  a0            1.000000e-03   1.000000e-03   9.102642e-04   9.102642e-04
+  ub            2.134220e-18   2.249149e-18   2.242494e-18   2.357424e-18
+  vsat          1.238070e+05   1.417468e+05   1.223009e+05   1.402407e+05
+  vth0          3.542540e-01   3.627424e-01   3.767729e-01   3.852614e-01
+
+<END>
+
+
+Device name: IL3.M0  Aging Time:10.00yrs
+  Param_name    Fresh_value    Effec_value    Aged_value     Aged_Effec_value
+  a0            1.000000e-03   1.000000e-03   9.303083e-04   9.303083e-04
+  ub            2.134220e-18   2.249149e-18   2.210637e-18   2.325567e-18
+  vsat          1.238070e+05   1.417468e+05   1.226605e+05   1.406003e+05
+  vth0          3.542540e-01   3.627424e-01   3.704178e-01   3.789063e-01
+
+<END>
+
+
+Device name: I6.M0  Aging Time:10.00yrs
+  Param_name    Fresh_value    Effec_value    Aged_value     Aged_Effec_value
+  a0            1.000000e-03   1.000000e-03   9.222252e-04   9.222252e-04
+  ub            2.134220e-18   2.249149e-18   2.223117e-18   2.338046e-18
+  vsat          1.238070e+05   1.417468e+05   1.225163e+05   1.404561e+05
+  vth0          3.542540e-01   3.627424e-01   3.729412e-01   3.814296e-01
+
+<END>
+
+
+Device name: IL7.M0  Aging Time:10.00yrs
+  Param_name    Fresh_value    Effec_value    Aged_value     Aged_Effec_value
+  a0            1.000000e-03   1.000000e-03   9.380674e-04   9.380674e-04
+  ub            2.134220e-18   2.249149e-18   2.199162e-18   2.314092e-18
+  vsat          1.238070e+05   1.417468e+05   1.227976e+05   1.407374e+05
+  vth0          3.542540e-01   3.627424e-01   3.680614e-01   3.765498e-01
+
+<END>
+
+
+Device name: I5.M0  Aging Time:10.00yrs
+  Param_name    Fresh_value    Effec_value    Aged_value     Aged_Effec_value
+  a0            1.000000e-03   1.000000e-03   9.124584e-04   9.124584e-04
+  ub            2.134220e-18   2.249149e-18   2.238862e-18   2.353791e-18
+  vsat          1.238070e+05   1.417468e+05   1.223406e+05   1.402804e+05
+  vth0          3.542540e-01   3.627424e-01   3.760628e-01   3.845513e-01
+
+<END>
+
+
+Device name: I4.M0  Aging Time:10.00yrs
+  Param_name    Fresh_value    Effec_value    Aged_value     Aged_Effec_value
+  a0            1.000000e-03   1.000000e-03   9.292517e-04   9.292517e-04
+  ub            2.134220e-18   2.249149e-18   2.212239e-18   2.327168e-18
+  vsat          1.238070e+05   1.417468e+05   1.226417e+05   1.405815e+05
+  vth0          3.542540e-01   3.627424e-01   3.707440e-01   3.792325e-01
+
+<END>
+
+
+Device name: I2.M0  Aging Time:10.00yrs
+  Param_name    Fresh_value    Effec_value    Aged_value     Aged_Effec_value
+  a0            1.000000e-03   1.000000e-03   9.112278e-04   9.112278e-04
+  ub            2.134220e-18   2.249149e-18   2.240895e-18   2.355824e-18
+  vsat          1.238070e+05   1.417468e+05   1.223184e+05   1.402582e+05
+  vth0          3.542540e-01   3.627424e-01   3.764608e-01   3.849492e-01
+
+<END>
+
+
+Device name: I12.M0  Aging Time:10.00yrs
+  Param_name    Fresh_value    Effec_value    Aged_value     Aged_Effec_value
+  a0            1.000000e-03   1.000000e-03   9.081757e-04   9.081757e-04
+  ub            2.134220e-18   2.249149e-18   2.245983e-18   2.360913e-18
+  vsat          1.238070e+05   1.417468e+05   1.222631e+05   1.402028e+05
+  vth0          3.542540e-01   3.627424e-01   3.774513e-01   3.859398e-01
+
+<END>
+
+
+Device name: I10.M0  Aging Time:10.00yrs
+  Param_name    Fresh_value    Effec_value    Aged_value     Aged_Effec_value
+  a0            1.000000e-03   1.000000e-03   9.119451e-04   9.119451e-04
+  ub            2.134220e-18   2.249149e-18   2.239708e-18   2.354638e-18
+  vsat          1.238070e+05   1.417468e+05   1.223313e+05   1.402711e+05
+  vth0          3.542540e-01   3.627424e-01   3.762287e-01   3.847172e-01
+
+<END>
+
+
+Device name: I9.M0  Aging Time:10.00yrs
+  Param_name    Fresh_value    Effec_value    Aged_value     Aged_Effec_value
+  a0            1.000000e-03   1.000000e-03   9.247011e-04   9.247011e-04
+  ub            2.134220e-18   2.249149e-18   2.219239e-18   2.334169e-18
+  vsat          1.238070e+05   1.417468e+05   1.225606e+05   1.405004e+05
+  vth0          3.542540e-01   3.627424e-01   3.721617e-01   3.806501e-01
+
+<END>
+
+
+Device name: I7.M0  Aging Time:10.00yrs
+  Param_name    Fresh_value    Effec_value    Aged_value     Aged_Effec_value
+  a0            1.000000e-03   1.000000e-03   9.106718e-04   9.106718e-04
+  ub            2.134220e-18   2.249149e-18   2.241817e-18   2.356746e-18
+  vsat          1.238070e+05   1.417468e+05   1.223083e+05   1.402481e+05
+  vth0          3.542540e-01   3.627424e-01   3.766408e-01   3.851292e-01
+
+<END>
+
+
+Device name: I8.M0  Aging Time:10.00yrs
+  Param_name    Fresh_value    Effec_value    Aged_value     Aged_Effec_value
+  a0            1.000000e-03   1.000000e-03   9.061298e-04   9.061298e-04
+  ub            2.134220e-18   2.249149e-18   2.249430e-18   2.364360e-18
+  vsat          1.238070e+05   1.417468e+05   1.222259e+05   1.401657e+05
+  vth0          3.542540e-01   3.627424e-01   3.781181e-01   3.866065e-01
+
+<END>
+
+
+Device name: IL1.M0  Aging Time:10.00yrs
+  Param_name    Fresh_value    Effec_value    Aged_value     Aged_Effec_value
+  a0            1.000000e-03   1.000000e-03   9.303083e-04   9.303083e-04
+  ub            2.134220e-18   2.249149e-18   2.210637e-18   2.325567e-18
+  vsat          1.238070e+05   1.417468e+05   1.226605e+05   1.406003e+05
+  vth0          3.542540e-01   3.627424e-01   3.704178e-01   3.789063e-01
+
+<END>
+
+
+Device name: IL4.M0  Aging Time:10.00yrs
+  Param_name    Fresh_value    Effec_value    Aged_value     Aged_Effec_value
+  a0            1.000000e-03   1.000000e-03   9.363066e-04   9.363066e-04
+  ub            2.134220e-18   2.249149e-18   2.201721e-18   2.316651e-18
+  vsat          1.238070e+05   1.417468e+05   1.227666e+05   1.407064e+05
+  vth0          3.542540e-01   3.627424e-01   3.685897e-01   3.770782e-01
+
+<END>
+
+
+Device name: IL5.M0  Aging Time:10.00yrs
+  Param_name    Fresh_value    Effec_value    Aged_value     Aged_Effec_value
+  a0            1.000000e-03   1.000000e-03   9.363066e-04   9.363066e-04
+  ub            2.134220e-18   2.249149e-18   2.201721e-18   2.316651e-18
+  vsat          1.238070e+05   1.417468e+05   1.227666e+05   1.407064e+05
+  vth0          3.542540e-01   3.627424e-01   3.685897e-01   3.770782e-01
+
+<END>
+
+
+Device name: IL6.M0  Aging Time:10.00yrs
+  Param_name    Fresh_value    Effec_value    Aged_value     Aged_Effec_value
+  a0            1.000000e-03   1.000000e-03   9.389814e-04   9.389814e-04
+  ub            2.134220e-18   2.249149e-18   2.197845e-18   2.312774e-18
+  vsat          1.238070e+05   1.417468e+05   1.228137e+05   1.407535e+05
+  vth0          3.542540e-01   3.627424e-01   3.677887e-01   3.762771e-01
+
+<END>

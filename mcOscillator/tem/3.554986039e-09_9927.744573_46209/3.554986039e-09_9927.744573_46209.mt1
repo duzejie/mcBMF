@@ -1,0 +1,7 @@
+$ Simulator: spectre (ver. 16.1.0.development.optimize.000.isr11_dev)
+.title ''
+index reliability_agetime time_vout2[ 0] time_vout2[ 1] time_vout2[ 2] 
+time_vout2[ 3] time_vout2[ 4] time_vout2[ 5] time_vout2[ 6] time_vout2[ 7] 
+time_vout2[ 8] time_vout2[ 9] time_vout2[10] temper alter# 
+1 3.1536e+08 1.14182e-09 2.01259e-09 2.88336e-09 3.75413e-09 4.6249e-09 
+5.49567e-09 6.36643e-09 7.2372e-09 8.10797e-09 8.97874e-09 9.84951e-09 27 2 

@@ -1,0 +1,44 @@
+Exported variables from results directory:  /vols/mmsimcm_t1_013/out/zejie_161_1012_4/spectre/lnx86_64/11-17-2017-0/mc3/1116outNetList/3.554986039e-09_9927.744573_46209/3.554986039e-09_9927.744573_46209.raw/
+
+date               :  5:41:09 AM, Fri Nov 17, 2017
+design             :  
+simulator          :  spectre
+version            :  16.1.0.development.optimize.000.isr11_dev
+
+
+Swept Measurements :
+Measurement Name   :  transient1-meas_reliability
+Analysis Type      :  tran
+time_vout1[00]     reliability_agetime @ 3.1536e+08  =  9.83724e-10 
+time_vout1[01]     reliability_agetime @ 3.1536e+08  =  1.7331e-09 
+time_vout1[02]     reliability_agetime @ 3.1536e+08  =  2.48247e-09 
+time_vout1[03]     reliability_agetime @ 3.1536e+08  =  3.23182e-09 
+time_vout1[04]     reliability_agetime @ 3.1536e+08  =  3.9812e-09 
+time_vout1[05]     reliability_agetime @ 3.1536e+08  =  4.73056e-09 
+time_vout1[06]     reliability_agetime @ 3.1536e+08  =  5.47993e-09 
+time_vout1[07]     reliability_agetime @ 3.1536e+08  =  6.22931e-09 
+time_vout1[08]     reliability_agetime @ 3.1536e+08  =  6.97865e-09 
+time_vout1[09]     reliability_agetime @ 3.1536e+08  =  7.72805e-09 
+time_vout1[10]     reliability_agetime @ 3.1536e+08  =  8.4774e-09 
+time_vout1[11]     reliability_agetime @ 3.1536e+08  =  9.2268e-09 
+time_vout1[12]     reliability_agetime @ 3.1536e+08  =  9.97614e-09 
+
+
+Measurement Name   :  transient2-meas_reliability
+Analysis Type      :  tran
+time_vout2[00]     reliability_agetime @ 3.1536e+08  =  1.14182e-09 
+time_vout2[01]     reliability_agetime @ 3.1536e+08  =  2.01259e-09 
+time_vout2[02]     reliability_agetime @ 3.1536e+08  =  2.88336e-09 
+time_vout2[03]     reliability_agetime @ 3.1536e+08  =  3.75413e-09 
+time_vout2[04]     reliability_agetime @ 3.1536e+08  =  4.6249e-09 
+time_vout2[05]     reliability_agetime @ 3.1536e+08  =  5.49567e-09 
+time_vout2[06]     reliability_agetime @ 3.1536e+08  =  6.36643e-09 
+time_vout2[07]     reliability_agetime @ 3.1536e+08  =  7.2372e-09 
+time_vout2[08]     reliability_agetime @ 3.1536e+08  =  8.10797e-09 
+time_vout2[09]     reliability_agetime @ 3.1536e+08  =  8.97874e-09 
+time_vout2[10]     reliability_agetime @ 3.1536e+08  =  9.84951e-09 
+
+
+
+
+

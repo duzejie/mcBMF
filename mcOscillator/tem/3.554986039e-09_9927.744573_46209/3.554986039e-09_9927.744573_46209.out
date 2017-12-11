@@ -1,0 +1,343 @@
+
+Spectre (R) Circuit Simulator
+Version 16.1.0.development.optimize.000.isr11_dev 64bit -- 12 Oct 2017
+Copyright (C) 1989-2017 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: zejie   Host: ip-172-18-22-97   HostID: 12AC6116   PID: 8553
+Memory  available: 97.7733 GB  physical: 185.1054 GB
+Linux   : Red Hat Enterprise Linux Workstation release 6.5 (Santiago)
+CPU Type: Intel(R) Xeon(R) CPU E5-2697 v4 @ 2.30GHz
+All processors running at 2294.7 MHz
+        Socket: Processors
+        0:       0,  1,  2,  3,  4,  5,  6,  7,  8,  9
+                10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+                20, 21
+        
+System load averages (1min, 5min, 15min) : 47.9 %, 53.5 %, 61.0 %
+
+
+Simulating `/vols/mmsimP4_t1b_006/ws/zejie/zejie_161_1012_4/mc3/1116outNetList/3.554986039e-09_9927.744573_46209.ckt' on ip-172-18-22-97 at 5:41:08 AM, Fri Nov 17, 2017 (process id: 8553).
+Current working directory: /it/sjclapa08p1_scratch04/zejie/a2017_11_17_00_22_04_mmsim28c-8_16272/vols/mmsimcm_t1_013/out/zejie_161_1012_4/spectre/lnx86_64/11-17-2017-0/mc3/1116outNetList/3.554986039e-09_9927.744573_46209
+Command line:
+     \
+        /vols/mmsimP4_t1b_006/ws/zejie/zejie_161_1012_4/spectre_dev/tools.lnx86/bin/spectre  \
+        -64 =log  \
+        /vols/mmsimcm_t1_013/out/zejie_161_1012_4/spectre/lnx86_64/11-17-2017-0/mc3/1116outNetList/3.554986039e-09_9927.744573_46209/3.554986039e-09_9927.744573_46209.out  \
+        -outdir  \
+        /vols/mmsimcm_t1_013/out/zejie_161_1012_4/spectre/lnx86_64/11-17-2017-0/mc3/1116outNetList/3.554986039e-09_9927.744573_46209  \
+        -cols 80 -f psfxl  \
+        /vols/mmsimP4_t1b_006/ws/zejie/zejie_161_1012_4/mc3/1116outNetList/3.554986039e-09_9927.744573_46209.ckt
+
+Loading /vols/mmsimP4_t1b_006/ws/zejie/zejie_161_1012_4/spectre_dev/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
+Loading /vols/mmsimP4_t1b_006/ws/zejie/zejie_161_1012_4/spectre_dev/tools.lnx86/cmi/lib/64bit/5.0/libphilips_o_sh.so ...
+Loading /vols/mmsimP4_t1b_006/ws/zejie/zejie_161_1012_4/spectre_dev/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
+Loading /vols/mmsimP4_t1b_006/ws/zejie/zejie_161_1012_4/spectre_dev/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
+Loading /vols/mmsimP4_t1b_006/ws/zejie/zejie_161_1012_4/spectre_dev/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
+Reading file:  /vols/mmsimP4_t1b_006/ws/zejie/zejie_161_1012_4/mc3/1116outNetList/3.554986039e-09_9927.744573_46209.ckt
+Reading file:  /vols/mmsimP4_t1b_006/ws/zejie/zejie_161_1012_4/spectre_dev/tools.lnx86/spectre/etc/configs/mapsubckt.cfg
+Reading file:  /vols/mmsimP4_t1b_006/ws/zejie/zejie_161_1012_4/spectre_dev/tools.lnx86/spectre/etc/configs/spectre.cfg
+Time for NDB Parsing: CPU = 201.97 ms, elapsed = 880.896 ms.
+Time accumulated: CPU = 232.964 ms, elapsed = 880.908 ms.
+Peak resident memory used = 46.3 Mbytes.
+
+
+The CPU load for active processors is :
+        Spectre  0 (54.7 %)      1 (45.3 %)      2 (47.7 %)      3 (73.3 %)
+                 4 (43.4 %)      5 (100.0 %)     6 (52.4 %)      7 (68.2 %)
+                 8 (58.8 %)      9 (78.8 %)     10 (55.3 %)     11 (95.3 %)
+                12 (50.6 %)     13 (58.6 %)     14 (38.1 %)     15 (80.0 %)
+                16 (75.3 %)     17 (91.9 %)     18 (56.8 %)     19 (57.0 %)
+                20 (100.0 %)    21 (54.1 %)     
+        Other   
+Reading link:  /vols/mmsimP4_t1b_006/ws/zejie/zejie_161_1012_4/spectre_dev/tools.lnx86/spectre/etc/ahdl/discipline.h
+Reading file:  /vols/mmsimP4_t1b_006/ws/zejie/zejie_161_1012_4/spectre_dev/tools.lnx86/spectre/etc/ahdl/disciplines.vams
+Reading link:  /vols/mmsimP4_t1b_006/ws/zejie/zejie_161_1012_4/spectre_dev/tools.lnx86/spectre/etc/ahdl/constants.h
+Reading file:  /vols/mmsimP4_t1b_006/ws/zejie/zejie_161_1012_4/spectre_dev/tools.lnx86/spectre/etc/ahdl/constants.vams
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SFE-884): "/vols/mmsimP4_t1b_006/ws/zejie/zejie_161_1012_4/mc3/1116outNetList/3.554986039e-09_9927.744573_46209.ckt" 281: The option 'save' is deleted because it is redefined at '/vols/mmsimP4_t1b_006/ws/zejie/zejie_161_1012_4/mc3/1116outNetList/3.554986039e-09_9927.744573_46209.ckt':line '287'.
+
+Time for Elaboration: CPU = 108.983 ms, elapsed = 116.43 ms.
+Time accumulated: CPU = 341.947 ms, elapsed = 997.482 ms.
+Peak resident memory used = 70 Mbytes.
+
+Loading /vols/mmsimP4_t1b_006/ws/zejie/zejie_161_1012_4/spectre_dev/tools.lnx86/spectre/lib/64bit/mdl/libSpectreEH_sh.so ...
+
+Time for EDB Visiting: CPU = 100.985 ms, elapsed = 107.21 ms.
+Time accumulated: CPU = 442.932 ms, elapsed = 1.1048 s.
+Peak resident memory used = 83.6 Mbytes.
+
+
+Global user options:
+             reltol = 0.001
+            vabstol = 1e-06
+            iabstol = 1e-12
+               temp = 27
+               gmin = 1e-12
+             rforce = 0.1
+           maxnotes = 5
+           maxwarns = 5
+             digits = 5
+               cols = 80
+             pivrel = 0.001
+          ckptclock = 1800
+             rawfmt = psfxl
+             method = trap
+           sensfile = ../psf/sens.output
+               save = nooutput
+               tnom = 27
+             scalem = 1
+              scale = 1
+
+Scoped user options:
+
+Circuit inventory:
+              nodes 21
+           agebsim4 40    
+          capacitor 8     
+            vsource 1     
+
+Analysis and control statement inventory:
+               info 6     
+        reliability 1     
+               tran 2     
+
+Output statements:
+             .probe 0     
+           .measure 2     
+               save 0     
+
+Time for parsing: CPU = 7.998 ms, elapsed = 10.7219 ms.
+Time accumulated: CPU = 450.93 ms, elapsed = 1.11568 s.
+Peak resident memory used = 86.6 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+
+Warning from spectre.
+    WARNING (SPECTRE-16707): Only tran supports psfxl format, result of other analyses will be in psfbin format.
+
+finalTimeOP: writing operating point information to rawfile.
+
+Notice from spectre during DC analysis, during info `finalTimeOP', during task `MDLControl'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+Warning from spectre.
+    WARNING (SPECTRE-16707): Only tran supports psfxl format, result of other analyses will be in psfbin format.
+
+modelParameter: writing model parameter values to rawfile.
+
+Warning from spectre.
+    WARNING (SPECTRE-16707): Only tran supports psfxl format, result of other analyses will be in psfbin format.
+
+element: writing instance parameter values to rawfile.
+
+Warning from spectre.
+    WARNING (SPECTRE-16707): Only tran supports psfxl format, result of other analyses will be in psfbin format.
+
+outputParameter: writing output parameter values to rawfile.
+
+
+************************************************
+MDL reliability analysis.
+************************************************
+
+Opening the PSF file /vols/mmsimcm_t1_013/out/zejie_161_1012_4/spectre/lnx86_64/11-17-2017-0/mc3/1116outNetList/3.554986039e-09_9927.744573_46209/3.554986039e-09_9927.744573_46209.raw/transient1.reliability ...
+
+Warning from spectre during Reliability Analysis `rel'.
+    WARNING (SPECTRE-16707): Only tran supports psfxl format, result of other analyses will be in psfbin format.
+
+
+*********************************************************************
+Transient Analysis `transient1-000_transient1': time = (0 s -> 10 ns)
+*********************************************************************
+
+Notice from spectre during IC analysis, during transient analysis `transient1-000_transient1', during task `MDLControl'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+    C8: Initial condition computed for node net46 is in error by 21.8265 uV.
+        Decrease `rforce' to reduce error in computed initial conditions.  However, setting rforce too small may result in convergence difficulties or in the matrix becoming singular.
+
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 10 ns
+    step = 10 ps
+    maxstep = 200 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = trap
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+
+    transient1-000_transient1: time = 252.8 ps    (2.53 %), step = 3.519 ps    (35.2 m%)
+    transient1-000_transient1: time = 754.3 ps    (7.54 %), step = 5.571 ps    (55.7 m%)
+    transient1-000_transient1: time = 1.254 ns    (12.5 %), step = 5.218 ps    (52.2 m%)
+    transient1-000_transient1: time = 1.75 ns     (17.5 %), step = 3.609 ps    (36.1 m%)
+    transient1-000_transient1: time = 2.253 ns    (22.5 %), step = 5.41 ps     (54.1 m%)
+    transient1-000_transient1: time = 2.753 ns    (27.5 %), step = 5.221 ps    (52.2 m%)
+    transient1-000_transient1: time = 3.253 ns    (32.5 %), step = 3.71 ps     (37.1 m%)
+    transient1-000_transient1: time = 3.752 ns    (37.5 %), step = 5.543 ps    (55.4 m%)
+    transient1-000_transient1: time = 4.251 ns    (42.5 %), step = 5.221 ps    (52.2 m%)
+    transient1-000_transient1: time = 4.753 ns    (47.5 %), step = 3.688 ps    (36.9 m%)
+    transient1-000_transient1: time = 5.25 ns     (52.5 %), step = 5.544 ps    (55.4 m%)
+    transient1-000_transient1: time = 5.75 ns     (57.5 %), step = 5.213 ps    (52.1 m%)
+    transient1-000_transient1: time = 6.25 ns     (62.5 %), step = 3.645 ps    (36.4 m%)
+    transient1-000_transient1: time = 6.753 ns    (67.5 %), step = 4.01 ps     (40.1 m%)
+    transient1-000_transient1: time = 7.25 ns     (72.5 %), step = 5.231 ps    (52.3 m%)
+    transient1-000_transient1: time = 7.753 ns    (77.5 %), step = 3.713 ps    (37.1 m%)
+    transient1-000_transient1: time = 8.252 ns    (82.5 %), step = 4.01 ps     (40.1 m%)
+    transient1-000_transient1: time = 8.755 ns    (87.5 %), step = 5.366 ps    (53.7 m%)
+    transient1-000_transient1: time = 9.252 ns    (92.5 %), step = 3.713 ps    (37.1 m%)
+    transient1-000_transient1: time = 9.751 ns    (97.5 %), step = 4.01 ps     (40.1 m%)
+Number of accepted tran steps =             2458
+
+Maximum value achieved for any signal of each quantity: 
+V: V(net48) = 1.22 V
+I: I(V0:p) = 564.7 uA
+If your circuit contains signals of the same quantity that are vastly different in size (such as high voltage circuitry combined with low voltage control circuitry), you should consider specifying global option `bin_relref=yes'.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-Transient Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   -   To further speed up simulation, consider
+          add ++aps on command line
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+During simulation, the CPU load for active processors is :
+        Spectre  0 (54.3 %)      1 (64.5 %)      2 (62.6 %)      3 (59.4 %)
+                 4 (39.4 %)      5 (100.0 %)     6 (51.6 %)      7 (54.3 %)
+                 8 (55.7 %)      9 (60.6 %)     10 (51.2 %)     11 (98.4 %)
+                12 (48.2 %)     13 (80.0 %)     14 (40.7 %)     15 (51.8 %)
+                16 (52.8 %)     17 (92.3 %)     18 (49.2 %)     19 (54.9 %)
+                20 (100.0 %)    21 (66.1 %)     
+        Other   
+Initial condition solution time: CPU = 1 ms, elapsed = 1.66011 ms.
+Intrinsic tran analysis time:    CPU = 1.45278 s, elapsed = 1.45798 s.
+Total time required for tran analysis `transient1-000_transient1': CPU = 1.45578 s, elapsed = 1.46058 s.
+Time accumulated: CPU = 1.9357 s, elapsed = 2.62417 s.
+Peak resident memory used = 89.3 Mbytes.
+
+
+Opening the PSF file /vols/mmsimcm_t1_013/out/zejie_161_1012_4/spectre/lnx86_64/11-17-2017-0/mc3/1116outNetList/3.554986039e-09_9927.744573_46209/3.554986039e-09_9927.744573_46209.raw/finalTimeOP_stress.reliability ...
+
+Warning from spectre during Reliability Analysis `rel'.
+    WARNING (SPECTRE-16707): Only tran supports psfxl format, result of other analyses will be in psfbin format.
+
+finalTimeOP_stress-000_finalTimeOP_stress: writing operating point information to file `op_str.log'.
+
+Opening the PSF file /vols/mmsimcm_t1_013/out/zejie_161_1012_4/spectre/lnx86_64/11-17-2017-0/mc3/1116outNetList/3.554986039e-09_9927.744573_46209/3.554986039e-09_9927.744573_46209.raw/transient2.reliability ...
+
+Warning from spectre during Reliability Analysis `rel'.
+    WARNING (SPECTRE-16707): Only tran supports psfxl format, result of other analyses will be in psfbin format.
+
+
+*********************************************************************
+Transient Analysis `transient2-000_transient2': time = (0 s -> 10 ns)
+*********************************************************************
+
+Notice from spectre during IC analysis, during transient analysis `transient2-000_transient2', during task `MDLControl'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+    C8: Initial condition computed for node net46 is in error by 18.9787 uV.
+        Decrease `rforce' to reduce error in computed initial conditions.  However, setting rforce too small may result in convergence difficulties or in the matrix becoming singular.
+
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 10 ns
+    step = 10 ps
+    maxstep = 200 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = trap
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+
+    transient2-000_transient2: time = 253.4 ps    (2.53 %), step = 4.089 ps    (40.9 m%)
+    transient2-000_transient2: time = 750.3 ps     (7.5 %), step = 4.904 ps      (49 m%)
+    transient2-000_transient2: time = 1.253 ns    (12.5 %), step = 3.803 ps      (38 m%)
+    transient2-000_transient2: time = 1.751 ns    (17.5 %), step = 4.885 ps    (48.9 m%)
+    transient2-000_transient2: time = 2.255 ns    (22.6 %), step = 5.93 ps     (59.3 m%)
+    transient2-000_transient2: time = 2.751 ns    (27.5 %), step = 4.756 ps    (47.6 m%)
+    transient2-000_transient2: time = 3.252 ns    (32.5 %), step = 4.535 ps    (45.3 m%)
+    transient2-000_transient2: time = 3.753 ns    (37.5 %), step = 3.726 ps    (37.3 m%)
+    transient2-000_transient2: time = 4.251 ns    (42.5 %), step = 4.778 ps    (47.8 m%)
+    transient2-000_transient2: time = 4.751 ns    (47.5 %), step = 3.867 ps    (38.7 m%)
+    transient2-000_transient2: time = 5.251 ns    (52.5 %), step = 7.989 ps    (79.9 m%)
+    transient2-000_transient2: time = 5.751 ns    (57.5 %), step = 3.88 ps     (38.8 m%)
+    transient2-000_transient2: time = 6.252 ns    (62.5 %), step = 6.072 ps    (60.7 m%)
+    transient2-000_transient2: time = 6.755 ns    (67.6 %), step = 5.547 ps    (55.5 m%)
+    transient2-000_transient2: time = 7.251 ns    (72.5 %), step = 3.975 ps    (39.7 m%)
+    transient2-000_transient2: time = 7.751 ns    (77.5 %), step = 3.72 ps     (37.2 m%)
+    transient2-000_transient2: time = 8.252 ns    (82.5 %), step = 3.523 ps    (35.2 m%)
+    transient2-000_transient2: time = 8.752 ns    (87.5 %), step = 8.645 ps    (86.4 m%)
+    transient2-000_transient2: time = 9.25 ns     (92.5 %), step = 4.051 ps    (40.5 m%)
+    transient2-000_transient2: time = 9.75 ns     (97.5 %), step = 4.688 ps    (46.9 m%)
+Number of accepted tran steps =             2159
+
+Maximum value achieved for any signal of each quantity: 
+V: V(net30) = 1.221 V
+I: I(V0:p) = 523.1 uA
+If your circuit contains signals of the same quantity that are vastly different in size (such as high voltage circuitry combined with low voltage control circuitry), you should consider specifying global option `bin_relref=yes'.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-Transient Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   -   To further speed up simulation, consider
+          add ++aps on command line
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+During simulation, the CPU load for active processors is :
+        Spectre  0 (51.7 %)      1 (82.8 %)      2 (54.4 %)      3 (54.5 %)
+                 4 (50.0 %)      5 (100.0 %)     6 (46.4 %)      7 (42.7 %)
+                 8 (53.2 %)      9 (52.5 %)     10 (56.6 %)     11 (99.2 %)
+                12 (62.0 %)     13 (56.7 %)     14 (45.2 %)     15 (47.3 %)
+                16 (39.9 %)     17 (87.6 %)     18 (58.7 %)     19 (48.0 %)
+                20 (100.0 %)    21 (63.4 %)     
+        Other   
+Initial condition solution time: CPU = 2.999 ms, elapsed = 3.56603 ms.
+Intrinsic tran analysis time:    CPU = 834.873 ms, elapsed = 2.67792 s.
+Total time required for tran analysis `transient2-000_transient2': CPU = 839.872 ms, elapsed = 2.68251 s.
+Time accumulated: CPU = 2.83957 s, elapsed = 5.40336 s.
+Peak resident memory used = 90.6 Mbytes.
+
+
+Opening the PSF file /vols/mmsimcm_t1_013/out/zejie_161_1012_4/spectre/lnx86_64/11-17-2017-0/mc3/1116outNetList/3.554986039e-09_9927.744573_46209/3.554986039e-09_9927.744573_46209.raw/finalTimeOP_aged.reliability ...
+
+Warning from spectre during Reliability Analysis `rel'.
+    WARNING (SPECTRE-16707): Only tran supports psfxl format, result of other analyses will be in psfbin format.
+
+finalTimeOP_aged-000_finalTimeOP_aged: writing operating point information to file `op_age.log'.
+
+Aggregate audit (5:41:13 AM, Fri Nov 17, 2017):
+Time used: CPU = 2.89 s, elapsed = 5.52 s, util. = 52.4%.
+Time spent in licensing: elapsed = 522 ms, percentage of total = 9.46%.
+Peak memory used = 91.1 Mbytes.
+Simulation started at: 5:41:08 AM, Fri Nov 17, 2017, ended at: 5:41:13 AM, Fri Nov 17, 2017, with elapsed time (wall clock): 5.52 s.
+spectre completes with 0 errors, 9 warnings, and 5 notices.

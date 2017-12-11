@@ -1,0 +1,303 @@
+// Generated for: spectre
+// Design library name: bertlink
+// Design cell name: osc13
+// Design view name: schematic
+simulator lang=spectre
+global 0 vdd!
+//include "model/nmos.scs"
+
+model nch bsim4 type=n
++ a0=1.00000e-03 a1=0.00000e+00
++ a2=1.00000e+00 acde=1.00000e+00 acnqsmod=0.00000e+00
++ agidl=2.15050e-07 ags=  5.93696 aigbacc=2.00000e-02
++ aigbinv=1.58000e-02 aigc=1.12000e-02 aigsd=1.06000e-02
++ alpha0=2.00000e-10 alpha1=1.00000e-02 at=1.40000e+05
++ b0=0.00000e+00 b1=0.00000e+00 beta0=  6.40000
++ bgidl=2.13920e+09 bigbacc=2.47000e-03 bigbinv=4.89300e-03
++ bigc=1.39200e-03 bigsd=1.23500e-03 binunit=  2.00000
++ bvs= 10.00000 capmod=  2.00000 cdsc=0.00000e+00
++ cdscb=0.00000e+00 cdscd=0.00000e+00 cf=8.13000e-11
++ cgbo=0.00000e+00 cgdl=1.71000e-11 cgdo=5.53000e-11
++ cgidl=2.20000e-01 cgsl=1.71000e-11 cgso=5.53000e-11
++ cigbacc=3.32500e-01 cigbinv=6.10000e-03 cigc=6.22000e-04
++ cigsd=7.00000e-02 cit=7.21200e-04 cjs=8.61000e-04
++ cjswgs=2.56000e-10 cjsws=4.87000e-11 ckappad=6.00000e-01
++ ckappas=6.00000e-01 clc=1.04000e-07 cle=6.00000e-01
++ delta=7.59562e-03 diomod=1.00000e+00 dlc=0.00000e+00
++ dlcig=2.48000e-09 dmcg=4.00000e-08 dmcgt=0.00000e+00
++ dmci=4.00000e-08 dmdg=0.00000e+00 drout=7.67707e-01
++ dsub=4.22235e-01 dtox=3.15000e-10 dvt0=2.36381e-01
++ dvt0w=0.00000e+00 dvt1=5.37442e-01 dvt1w=0.00000e+00
++ dvt2=5.56679e-02 dvt2w=0.00000e+00 dvtp0=2.36094e-06
++ dvtp1=  4.50000 dwb=0.00000e+00 dwc=0.00000e+00
++ dwg=0.00000e+00 dwj=0.00000e+00 ef=9.40000e-01
++ egidl=2.97340e-01 eigbinv=  1.10000 em=1.00000e+06
++ epsrox=  3.90000 eta0=1.76029e-03 etab=-1.13964e-02
++ fnoimod=1.00000e+00 fprout=3.00000e+02 gbmin=1.00000e-12
++ igbmod=1.00000e+00 igcmod=1.00000e+00 ijthsfwd=1.00000e-02
++ ijthsrev=1.00000e-02 jss=2.10000e-07 jswgs=1.20000e-12
++ jsws=3.40000e-13 k1=3.02640e-01 k2=-2.10085e-02
++ k2we=1.50195e-03 k3= -7.28453 k3b=  2.45499
++ keta=-6.69986e-02 kt1=-1.80980e-01 kt1l=0.00000e+00
++ kt2=-3.60000e-02 ku0=-3.47100e-08 ku0we=-3.00150e-03
++ kvsat=3.42000e-01 kvth0=2.46100e-09 kvth0we=3.27002e-03
++ ldrout=-1.20470e-08 letab=-2.89197e-10 lint=1.00000e-09
++ lintnoi=-5.00000e-09 lk2=8.00725e-11 lku0=1.23000e-08
++ lkvth0=-2.42100e-11 ll=0.00000e+00 llc=0.00000e+00
++ lln=1.00000e+00 llodku0=1.00000e+00 llodvth=1.00000e+00
++ lmax=6.00000e-08 lmin=4.00000e-08 lnfactor=1.41099e-07
++ lodeta0=1.00000e+00 lodk2=5.00000e-01 lpdiblc1=5.33299e-10
++ lpdiblc2=2.22120e-10 lpe0=6.61014e-08 lpeb=2.00040e-08
++ lu0=-4.49787e-10 lua=-3.36482e-17 lub=7.93378e-27
++ lvoff=-1.65057e-10 lvsat=7.71378e-04 lvth0=-5.87053e-12
++ lw=0.00000e+00 lwc=0.00000e+00 lwl=0.00000e+00
++ lwlc=0.00000e+00 lwn=1.00000e+00 minr=1.00000e-60
++ minv=-1.50000e-01 mjs=2.64000e-01 mjswgs=5.11000e-01
++ mjsws=1.10000e-02 mobmod=0.00000e+00 moin=  5.67000
++ ndep=1.00000e+17 nfactor=2.34741e-01 ngate=1.60000e+20
++ ngcon=1.00000e+00 nigbacc= 10.00000 nigbinv= 10.00000
++ nigc=  3.07000 njd=1.00000e+00 njs=1.00000e+00
++ noff=  2.96000 noia=2.60000e+42 noib=1.61000e+21
++ noic=3.00000e+08 nsd=1.00000e+20 ntox=1.00000e+00
++ pbs=5.11000e-01 pbswgs=4.64000e-01 pbsws=7.86000e-01
++ pclm=  1.44127 pdiblc1=-1.01684e-02 pdiblc2=2.88314e-03
++ pdiblcb=1.00000e+00 pdits=0.00000e+00 pditsd=0.00000e+00
++ pditsl=0.00000e+00 pdrout=9.16453e-15 permod=1.00000e+00
++ petab=-1.57523e-15 phin=0.00000e+00 pigcd=  2.59100
++ pk2=6.90010e-16 pku0=4.60000e-14 pkvth0=0.00000e+00
++ pnfactor=-3.93247e-16 poxedge=1.00000e+00 ppdiblc1=1.22711e-16
++ ppdiblc2=-1.03135e-16 prt=0.00000e+00 prwb=0.00000e+00
++ prwg=0.00000e+00 pscbe1=1.00000e+09 pscbe2=1.00000e-20
++ pu0=3.25596e-16 pua=3.18105e-23 pub=-1.01688e-32
++ pvag=  1.20000 pvoff=6.59429e-17 pvsat=1.27066e-13
++ pvth0=9.76459e-16 rbdb= 50.00000 rbodymod=0.00000e+00
++ rbpb= 50.00000 rbpd= 50.00000 rbps= 50.00000
++ rbsb= 50.00000 rdsmod=0.00000e+00 rdsw=1.00002e+02
++ rgatemod=0.00000e+00 rsh= 17.50000 rshg= 15.50000
++ saref=6.10000e-07 sbref=6.10000e-07 scref=1.00000e-06
++ steta0=0.00000e+00 stk2=3.87000e-10 tcj=6.52000e-04
++ tcjsw=3.57000e-04 tcjswg=1.50000e-03 tempmod=0.00000e+00
++ tku0=9.70000e-02 tnoimod=0.00000e+00 tnom= 25.00000
++ toxe=2.41000e-09 toxm=2.41000e-09 toxref=3.00000e-09
++ tpb=1.10000e-03 tpbsw=1.90000e-03 tpbswg=1.00000e-03
++ trnqsmod=0.00000e+00 tvfbsdoff=2.20000e-02 tvoff=2.24280e-03
++ u0=2.32553e-02 ua=-1.20450e-09 ua1=1.04000e-09
++ ub=2.13422e-18 ub1=-4.64000e-19 uc=7.79785e-11
++ uc1=8.71000e-11 ud=0.00000e+00 ute=-1.00000e+00
++ version=  4.30000 vfbsdoff=2.00000e-02 voff=-1.56783e-01
++ voffcv=-1.20000e-01 voffl=-3.59518e-09 vsat=1.23807e+05
++ vth0=3.54254e-01 w0=8.19002e-08 wags=-2.14739e-07
++ wdrout=-1.58009e-07 web=-2.10000e+02 wec=-3.51000e+03
++ weta0=-1.59041e-09 wetab=4.11045e-08 wint=2.00000e-09
++ wk2=-4.43371e-09 wketa=8.67511e-08 wku0=9.96000e-08
++ wkvth0=0.00000e+00 wl=0.00000e+00 wlc=0.00000e+00
++ wln=1.00000e+00 wlod=1.37000e-07 wlodku0=1.00000e+00
++ wlodvth=1.00000e+00 wmax=2.00000e-06 wmin=1.00000e-06
++ wnfactor=-6.57039e-10 wpdiblc1=-1.72460e-10 wpdiblc2=-1.32969e-09
++ wpemod=1.00000e+00 wr=1.00000e+00 wu0=-8.08125e-09
++ wua=-7.33625e-16 wub=1.67185e-25 wuc=7.26425e-18
++ wvoff=-8.92420e-10 wvsat=-2.19079e-06 wvth0=-1.41179e-08
++ ww=0.00000e+00 wwc=0.00000e+00 wwl=0.00000e+00
++ wwlc=0.00000e+00 wwn=1.00000e+00 xgl=0.00000e+00
++ xgw=0.00000e+00 xj=8.10000e-08 xjbvs=1.00000e+00
++ xl=0.00000e+00 xpart=1.00000e+00 xrcrg1= 12.00000
++ xrcrg2=1.00000e+00 xtid=  3.00000 xtis=  3.00000
++ xw=0.00000e+00
+*relxpert: agemodel nch agelevel=0
+*relxpert: + ai=7.78220e+06 bi=1.70000e+06 ea=0.0
+*relxpert: + ecrit0=5.71220e+04 ecritb=0.0 ecritg=9.60050e+03
+*relxpert: + lc0=1.26700 lc1=1.06290e-01
+*relxpert: + h0=1.24130e+04 m0=1.97630 nn0=3.89750e-01
+*relxpert: + a0=[ 3.23840 2.93280 1.12600e-01 3.11860e-01 4.32380 -1.0 ]
+*relxpert: + ub=[ 5.88700 0.0 4.29880e-01 1.0 1.0 1.0 ]
+*relxpert: + vsat=[ 4.575e-01 0.0 3.36520e-01 1.0 1.0 -1.0 ]
+*relxpert: + vth0=[ 8.20800 1.17380 4.32600e-01 1.97450e-01 2.82900 1.0 ]
+
+//
+//
+//include "model/pmos.scs"
+
+model pch bsim4 type=p
++ a0=1.00000e-03 a1=0.00000e+00
++ a2=1.00000e+00 acde=  1.20000 acnqsmod=0.00000e+00
++ agidl=9.00000e-08 ags=  4.44856 aigbacc=1.20000e-02
++ aigbinv=3.47000e-01 aigc=7.12000e-03 aigsd=5.90000e-03
++ alpha0=0.00000e+00 alpha1=6.00000e-02 at=4.00001e+04
++ b0=0.00000e+00 b1=0.00000e+00 beta0= 13.50000
++ bgidl=3.40400e+09 bigbacc=3.49000e-03 bigbinv=3.12000e-02
++ bigc=6.31000e-04 bigsd=2.48000e-04 binunit=  2.00000
++ bvs= 10.00000 capmod=  2.00000 cdsc=0.00000e+00
++ cdscb=0.00000e+00 cdscd=0.00000e+00 cf=1.18000e-10
++ cgbo=0.00000e+00 cgdl=5.40000e-11 cgdo=3.10000e-11
++ cgidl=5.00000e-01 cgsl=5.40000e-11 cgso=3.10000e-11
++ cigbacc=1.31000e-01 cigbinv=6.10000e-03 cigc=0.00000e+00
++ cigsd=3.20000e-02 cit=1.00000e-04 cjs=9.98000e-04
++ cjswgs=2.53000e-10 cjsws=6.21000e-11 ckappad=6.00000e-01
++ ckappas=6.00000e-01 clc=1.00000e-07 cle=6.00000e-01
++ delta=2.00000e-02 diomod=1.00000e+00 dlc=0.00000e+00
++ dlcig=2.52000e-09 dmcg=8.50000e-08 dmcgt=0.00000e+00
++ dmci=8.50000e-08 dmdg=0.00000e+00 drout=  1.13269
++ dsub=  1.27250 dtox=3.29000e-10 dvt0=2.03410e-01
++ dvt0w=0.00000e+00 dvt1=9.51460e-01 dvt1w=5.36650e+06
++ dvt2=1.00000e-02 dvt2w=0.00000e+00 dvtp0=2.20000e-06
++ dvtp1=2.00000e-01 dwb=0.00000e+00 dwc=0.00000e+00
++ dwg=0.00000e+00 dwj=0.00000e+00 ef=  1.14700
++ egidl=1.50000e-01 eigbinv=  1.10000 em=2.10000e+07
++ epsrox=  3.90000 eta0=3.11538e-02 etab=1.75493e-01
++ fnoimod=1.00000e+00 fprout=3.90234e+02 gbmin=1.00000e-12
++ igbmod=1.00000e+00 igcmod=1.00000e+00 ijthsfwd=1.00000e-02
++ ijthsrev=1.00000e-02 jss=1.51000e-07 jswgs=2.47000e-12
++ jsws=3.98000e-13 k1=2.50000e-01 k2=-2.10585e-02
++ k2we=3.00000e-04 k3= -1.70095 k3b=  1.20031
++ keta=-1.37522e-01 kt1=-2.29000e-01 kt1l=0.00000e+00
++ kt2=-1.23200e-02 ku0=1.00000e-07 ku0we=-3.48249e-03
++ kvsat=-3.86000e-01 kvth0=2.00000e-10 kvth0we=-3.19750e-03
++ letab=-1.19606e-08 lint=2.00000e-24 lk2=-8.29996e-11
++ lketa=4.20096e-09 lku0=1.87100e-07 lkvth0=2.40000e-10
++ ll=0.00000e+00 llc=0.00000e+00 lln=1.00000e+00
++ llodku0=1.00000e+00 llodvth=  1.80000 lmax=6.00000e-08
++ lmin=4.00000e-08 lnfactor=4.05840e-08 lodeta0=1.00000e+00
++ lodk2=  1.90000 lpdiblc2=-1.71065e-10 lpe0=7.51993e-08
++ lpeb=5.60807e-08 lu0=-4.02243e-10 lua=0.00000e+00
++ lub=2.53022e-26 luc=2.96027e-17 lvoff=3.84000e-09
++ lvsat=1.09112e-03 lvth0=3.75355e-09 lw=0.00000e+00
++ lwc=0.00000e+00 lwl=0.00000e+00 lwlc=0.00000e+00
++ lwn=1.00000e+00 minr=1.00000e-60 minv=0.00000e+00
++ mjs=3.40000e-01 mjswgs=8.60000e-01 mjsws=1.20000e-02
++ mobmod=0.00000e+00 moin=  8.00000 ndep=8.50000e+17
++ nfactor=4.50931e-01 ngate=8.00000e+19 ngcon=1.00000e+00
++ nigbacc=  5.20000 nigbinv=1.00000e+00 nigc=  2.28000
++ njs=1.00000e+00 noff=  2.50000 noia=1.45000e+42
++ noib=3.57000e+26 noic=2.00000e+10 nsd=1.00000e+20
++ ntox=1.00000e+00 pbs=7.50000e-01 pbswgs=7.10000e-01
++ pbsws=4.90000e-01 pclm=6.27258e-01 pdiblc1=0.00000e+00
++ pdiblc2=1.04829e-02 pdiblcb=0.00000e+00 pdits=5.04262e-03
++ pditsd=0.00000e+00 pditsl=1.00000e+02 permod=1.00000e+00
++ petab=6.28916e-15 phin=0.00000e+00 pigcd=  2.28000
++ pk2=-6.15740e-16 pketa=-1.79703e-14 pku0=-3.24000e-14
++ pkvth0=0.00000e+00 pnfactor=-9.14283e-15 poxedge=1.00000e+00
++ ppdiblc2=-1.38953e-16 prt=0.00000e+00 prwb=-2.49981e-01
++ prwg=2.50000e-01 pscbe1=9.26400e+08 pscbe2=1.00000e-20
++ pu0=3.32421e-16 pub=3.41731e-32 puc=-5.85605e-23
++ pvag=  1.42500 pvsat=-7.40160e-10 pvth0=-4.03421e-16
++ rbdb= 50.00000 rbodymod=0.00000e+00 rbpb= 50.00000
++ rbpd= 50.00000 rbps= 50.00000 rbsb= 50.00000
++ rdsmod=0.00000e+00 rdsw=3.27600e+02 rgatemod=0.00000e+00
++ rsh=  9.68000 rshg=1.00000e-01 saref=6.10000e-07
++ sbref=6.10000e-07 scref=1.00000e-06 steta0=0.00000e+00
++ stk2=0.00000e+00 tcj=7.98000e-04 tcjsw=2.40000e-04
++ tcjswg=4.77000e-03 tku0=2.40000e-01 tnoimod=0.00000e+00
++ tnom= 25.00000 toxe=2.40000e-09 toxm=2.40000e-09
++ toxref=3.00000e-09 tpb=1.90000e-03 tpbsw=1.90000e-03
++ tpbswg=1.90000e-03 trnqsmod=0.00000e+00 u0=2.87262e-02
++ ua=9.41142e-12 ua1=4.54900e-09 ub=1.80174e-18
++ ub1=-5.44100e-18 uc=-4.17284e-10 uc1=-5.00000e-11
++ ud=0.00000e+00 ute= -1.52400 version=  4.30000
++ voff=-1.07133e-01 voffcv=-4.86000e-02 voffl=-6.03621e-09
++ vsat=1.19154e+05 vth0=-3.61251e-01 w0=1.58508e-07
++ wags=-1.12618e-06 web=-2.20000e+02 wec=-3.00000e+03
++ wetab=-1.04819e-07 wint=1.08929e-08 wk2=1.06507e-08
++ wketa=2.12274e-07 wku0=2.40000e-07 wkvth0=1.80000e-10
++ wl=0.00000e+00 wlc=0.00000e+00 wln=1.00000e+00
++ wlod=2.86000e-07 wlodku0=1.00000e+00 wlodvth=1.00000e+00
++ wmax=1.10000e-05 wmin=2.00000e-06 wnfactor=-1.01582e-07
++ wpdiblc2=9.61405e-10 wpemod=0.00000e+00 wr=1.00000e+00
++ wu0=-2.00228e-09 wua=1.13123e-17 wub=-2.44819e-25
++ wuc=8.69932e-16 wvoff=-7.38487e-09 wvsat=-2.11211e-06
++ wvth0=-3.46667e-09 ww=0.00000e+00 wwc=0.00000e+00
++ wwl=0.00000e+00 wwlc=0.00000e+00 wwn=1.00000e+00
++ xgl=0.00000e+00 xgw=0.00000e+00 xj=1.70000e-07
++ xjbvs=1.00000e+00 xl=0.00000e+00 xpart=1.00000e+00
++ xrcrg1= 12.00000 xrcrg2=1.00000e+00 xtis=  3.00000
++ xw=0.00000e+00
+* PMOS HCI reliability models
+*relxpert: agemodel pch agelevel = 0
+*relxpert: +ai = 4.4822e+06  bi = 3.7e+06 
+*relxpert: +ecrit0 = 1.0233e+05  ecritg = 37500 ecritb = 0   
+*relxpert: +lc0 = 1.3402 lc1 = 0.0103 ea = 0
+*relxpert: +h0 = 5.738e+06  m0 = 1.1491 nn0 = 0.1475 wg=0
+*relxpert: +vth0 = [1.79 0 0.16986 1 1  1]  
+*relxpert: +ub = [2.9838 0 0.37357 1 1  1]
+*relxpert: +vsat = [2.5  0 0.19051 1 1 -1]  
+*relxpert: +a0 = [2.4482 0 0.495   1 1 -1]
+* PMOS NBTI reliability models
+*relxpert: agemodel pch agelevel = 1
+*relxpert: +nbn = 0.20225  nba = 1  nbea = 0.055226 
+*relxpert: +nbgamma = 1.6 nbgammad= 0.58759 
+*relxpert: +nbalpha = 1  nbeta0 = 0.0015588  nbeta1 = 20.621
+*relxpert: +nbeta2  = -1  nbemod  = 2
+*relxpert: +vth0 = [0.4    3.4562 0.083139 0.2537  3.347  1]  
+*relxpert: +ub = [0.4196 0 0.45 1 1 1]
+*relxpert: +vsat = [0.3217 2.6701 0.18025  0.12551 4.25  -1]
+
+
+// Library name: bertlink
+// Cell name: inv
+// View name: schematic
+subckt inv A Y
+    M1 (Y A vdd! vdd!) pch w=2.0u l=45n
+    M0 (Y A 0 0) nch w=1.0u l=45n
+ends INV
+// End of subcircuit definition.
+
+// Library name: bertlink
+// Cell name: osc13
+// View name: schematic
+V0 (vdd! 0) vsource dc=1.1 type=dc
+C8 (net46 0) capacitor c=1.0f ic=0
+C4 (net12 0) capacitor c=10.0f
+C3 (net16 0) capacitor c=10.0f
+C5 (net14 0) capacitor c=10.0f
+C2 (net18 0) capacitor c=10.0f
+C6 (net10 0) capacitor c=10.0f
+C1 (net20 0) capacitor c=10.0f
+C0 (out 0) capacitor c=10.0f
+IL6 (net27 net10) inv
+IL5 (net40 net12) inv
+IL4 (net40 net14) inv
+IL1 (net46 net16) inv
+I8 (net21 net25) inv
+I7 (net23 net21) inv
+I9 (net25 net27) inv
+I10 (net27 net31) inv
+I12 (net29 net30) inv
+I2 (net46 net42) inv
+I4 (net44 net40) inv
+I5 (net40 net38) inv
+IL7 (net23 out) inv
+I6 (net38 net23) inv
+IL3 (net46 net20) inv
+I11 (net31 net29) inv
+IL2 (net46 net18) inv
+I3 (net42 net44) inv
+I1 (net48 net46) inv
+I0 (net30 net48) inv
+simulatorOptions options reltol=1e-3 vabstol=1e-6 iabstol=1e-12 temp=27 \
+    tnom=27 scalem=1.0 scale=1.0 gmin=1e-12 rforce=0.1 maxnotes=5 maxwarns=5 \
+    digits=5 cols=80 pivrel=1e-3 ckptclock=1800 rawfmt=psfxl method=trap \
+    sensfile="../psf/sens.output" 
+finalTimeOP info what=oppoint where=rawfile
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+saveOptions options save=allpub
+
+simulator lang=spice
+.measure tran_cont time_vout1 when v(out)=0.5 rise=2
+//.measure tran max2 max( v(net30))
+simulator lang=spectre
+
+rel reliability  {
+    age time=[10.0000y]
+    deltad value = 0.1
+    accuracy level=2
+    report_model_param value=yes
+    tran_stress tran stop=10n write="spectre.ic" writefinal="spectre.fc"     annotate=status maxiters=5
+    finalTimeOP_stress info what=oppoint where=file file=op_str.log
+    tran_aged tran stop=10n write="spectre.ic" writefinal="spectre.fc"     annotate=status maxiters=5
+    finalTimeOP_aged info what=oppoint where=file file=op_age.log
+}
+simulator lang=spice
+.measure tran_cont time_vout2 when v(out)=0.5 rise=2
+//.measure tran max2 max( v(net30))
+simulator lang=spectre

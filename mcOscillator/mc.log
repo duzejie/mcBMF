@@ -1,0 +1,19 @@
+toxe
+toxSize:300
+inputMean:2.41000e-09
+inputSTD:0.40000e-09
+relmaen:2.25236107271e-09
+relmedian2.263278899e-09
+relSTD:4.15190316513e-10
+h0
+toxSize:300
+inputMean:1.24130e+04
+inputSTD:0.25e+04
+relmaen:11346.6754401
+relmedian11432.821535
+relSTD:2658.7496973
+corrcoef:[[ 1.          0.92645286]
+ [ 0.92645286  1.        ]]
+
+ note :
+ toxe variation is using in both pmos and nmos, but h0 ony variate in noms.

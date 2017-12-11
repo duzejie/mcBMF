@@ -1,0 +1,29 @@
+1. confirm which parameters are been variated, PV, AV.
+2. using spectre generate random data.
+	a. find the case: monteCarlo/genarateRandomdata/mc2/mc_iris.ckt
+	b. give variation 'rr' a reasonable  mean value, and set STD, then set the num of data to generat.
+	c. run the case. 
+	d. copy data from file 'monteCarlo/compactmismatchdata' to a local file 'tmpRandom.data'.
+	e. using getRandomData.py to get formative random data file 'randomData.dat'
+	f. copy format data from file 'randomData.dat' to python file 'randomdata.py' as a python List, and the list name is the variation name.
+3. for each variation, repeat this step 2.
+4. rewrite mc_net.py, using origin netlist as template, break at each variation which we want to vary. give different variation value, then combine it to form a new netlist.
+5. modify input parameter of function writeNxNnetList() in mc_net.py, to give variation, it can generate all netlist.
+	if __name__ == "__main__":
+    	writeNxNnetList('1108outNetList', randomdata.tox_random, randomdata.h0_random)
+6. copy mc_net.py and randomdata.py to remote computer, then run mc_net.py. After that, we get all netlist.
+7. modify .ctl file '/home/zejie/Rx_Test/ctl_file/spectre_lnx86_64.ctl ', give the cases path.
+8. login a remote computer, and set a workspace. Then, in shell, run 
+			$ sp_test_ctl			#using regration system to run all cases.
+9. paser all data which we want. modify paser.py to paser data.
+	genarate some origin data files:
+	outdata_ba0.dat  	result of  pasering from ba0 file 
+	outdata_log.dat 	result of  pasering from op_log file 
+	outdata_measure.dat result of  pasering from .measure file
+
+10. modify clearData.py to clear and rewrite data. cleared data filenames start with 'clear_ '.
+
+11. load data and analyse.
+
+
+

@@ -1,0 +1,15 @@
+{
+'tox':{
+size: 300, 
+input mean: 5.50000E-09, 
+input std: 0.5e-9 ,
+real mean: 5.26833508799e-09,
+real std: 5.38909734742e-10 	
+}
+h0:{
+size:300,
+input mean: 83413, 
+input std: 10000,
+real mean: 78779.7017602666,
+real std: 10778.194695501 	
+}

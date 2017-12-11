@@ -1,0 +1,80 @@
+****************************************************************************************************
+*  Spectre (R) Circuit Simulator
+*  Version 16.1.0.development.optimize.000.isr11_dev 64bit -- 12 Oct 2017
+*  Copyright (C) 1989-2016 Cadence Design Systems, Inc. All rights reserved worldwide.
+*  Cadence and Spectre are registered trademarks of Cadence Design Systems, Inc.
+*  All others are the property of their respective holders.
+*  Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+*  User: zejie   Host: ip-172-18-22-97   HostID: 12AC6116   PID: 8553
+*  Memory  available: 97.4824 GB  physical: 185.1054 GB
+*  Simulating `/vols/mmsimP4_t1b_006/ws/zejie/zejie_161_1012_4/mc3/1116outNetList/3.554986039e-09_9927.744573_46209.ckt' on ip-172-18-22-97 at 5:41:08 AM, Fri Nov 17, 2017 (process id: 8553).
+****************************************************************************************************
+
+*Note: Value in last column of each line indicates the agelevel: 0--HCI, 1--NBTI, 2--PBTI
+
+
+.age 3.153600e+08
+
+elem name                   type         total age            (agelevel)
+---------                   ----        ------------          ----------
+I0.M0                         n         1.541487e-05             (0)
+I0.M1                         p         1.408509e-12             (0)
+                                        3.003389e-07             (1)
+I1.M0                         n         4.405758e-06             (0)
+I1.M1                         p         2.773507e-13             (0)
+                                        2.974564e-07             (1)
+I10.M0                        n         1.311966e-05             (0)
+I10.M1                        p         1.757501e-12             (0)
+                                        3.026269e-07             (1)
+I11.M0                        n         1.393975e-05             (0)
+I11.M1                        p         1.482751e-12             (0)
+                                        3.004920e-07             (1)
+I12.M0                        n         1.500710e-05             (0)
+I12.M1                        p         1.450372e-12             (0)
+                                        3.173442e-07             (1)
+I2.M0                         n         1.346543e-05             (0)
+I2.M1                         p         1.225474e-12             (0)
+                                        2.563150e-07             (1)
+I3.M0                         n         1.291668e-05             (0)
+I3.M1                         p         1.508664e-12             (0)
+                                        3.094712e-07             (1)
+I4.M0                         n         6.503876e-06             (0)
+I4.M1                         p         5.257044e-13             (0)
+                                        2.965552e-07             (1)
+I5.M0                         n         1.287595e-05             (0)
+I5.M1                         p         1.761194e-12             (0)
+                                        2.783892e-07             (1)
+I6.M0                         n         8.811259e-06             (0)
+I6.M1                         p         6.153416e-13             (0)
+                                        3.057182e-07             (1)
+I7.M0                         n         1.373774e-05             (0)
+I7.M1                         p         1.488798e-12             (0)
+                                        2.879136e-07             (1)
+I8.M0                         n         1.610589e-05             (0)
+I8.M1                         p         1.348674e-12             (0)
+                                        3.147823e-07             (1)
+I9.M0                         n         7.942968e-06             (0)
+I9.M1                         p         6.861252e-13             (0)
+                                        2.955234e-07             (1)
+IL1.M0                        n         6.197503e-06             (0)
+IL1.M1                        p         4.098983e-13             (0)
+                                        2.359665e-07             (1)
+IL2.M0                        n         6.197503e-06             (0)
+IL2.M1                        p         4.098983e-13             (0)
+                                        2.359665e-07             (1)
+IL3.M0                        n         6.197503e-06             (0)
+IL3.M1                        p         4.098983e-13             (0)
+                                        2.359665e-07             (1)
+IL4.M0                        n         4.643884e-06             (0)
+IL4.M1                        p         4.422223e-13             (0)
+                                        2.560853e-07             (1)
+IL5.M0                        n         4.643884e-06             (0)
+IL5.M1                        p         4.422223e-13             (0)
+                                        2.560853e-07             (1)
+IL6.M0                        n         4.047014e-06             (0)
+IL6.M1                        p         3.709194e-13             (0)
+                                        2.813826e-07             (1)
+IL7.M0                        n         4.244632e-06             (0)
+IL7.M1                        p         3.215859e-13             (0)
+                                        2.655020e-07             (1)
